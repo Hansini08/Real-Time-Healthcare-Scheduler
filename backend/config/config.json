@@ -1,0 +1,26 @@
+{
+    "development": {
+      "username": "",
+      "password": "",
+      "database": "scheduler_dev.sqlite",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+      "storage": "./scheduler_dev.sqlite"
+    },
+    "test": {
+      "username": "",
+      "password": "",
+      "database": "database_test.sqlite",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+      "storage": ":memory:"
+    },
+    "production": {
+      "username": "",
+      "password": "",
+      "database": "database_prod.sqlite",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+      "storage": "./scheduler_prod.sqlite"
+    }
+  }

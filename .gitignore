@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite
+*.sqlite-journal
+
+# Logs and build output
+*.log
+frontend/dist/
+
+# Existing clone of the destination repository
+Real-Time-Healthcare-Scheduler/
